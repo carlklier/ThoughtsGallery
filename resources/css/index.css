@@ -9,27 +9,20 @@
 } */
 
 .gallery {
-  /* max-width: 1020px; */
-  height: 400px;
-  width: 50%;
-  /* margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 10%;
-  margin-right: 10%; */
   margin: auto;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transition: all 0.25s ease-in-out;
-  /* background: blue; */
-  /* background: url("https://cdn.pixabay.com/photo/2017/07/05/21/52/frame-2476117_960_720.png") */
+  transform: translate(-50%, -50%);
 }
 
 .art {
-  width: 3%;
+  width: 9%;
   height: inherit;
-  padding-right: 20px;
-  padding-left: 5px;
   background: yellow;
   display: inline-block;
-  /* border: 10px solid black; */
   transition: all 0.25s ease-in-out;
   transform: translate3d(0, 0, 0);
 }
@@ -37,15 +30,11 @@
 .text {
   height: inherit;
   width: 400px;
-  /* padding-left: 10px; */
-  /* padding-right: 20px; */
-  /* width: inherit; */
+  padding-left: 10px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 75px;
   overflow: hidden;
-  /* display: flex; */
-  /* white-space: nowrap; */
   float: left;
 }
 
@@ -53,20 +42,16 @@
   width: 400px;
   height: inherit;
   transition: all 0.25s ease-in-out;
-  /* white-space: nowrap; */
-  /* float: left; */
 }
 
 .art.inactive {
-  width: 50px;
+  width: 5%;
   height: inherit;
   opacity: .6;
   transition: all 0.25s ease-in-out;
 }
 
 .art.frame1 {
-  /* background: url("./resources/images/frame.PNG") */
-  /* background: url("https://cdn.pixabay.com/photo/2017/07/05/21/52/frame-2476117_960_720.png") */
   background: #FFCCBB;
   background-size: cover;
 }
@@ -92,8 +77,6 @@
 }
 
 .art.frame6 {
-  /* background: url("./resources/images/frame.PNG") */
-  /* background: url("https://cdn.pixabay.com/photo/2017/07/05/21/52/frame-2476117_960_720.png") */
   background: #C39C92;
   background-size: cover;
 }
