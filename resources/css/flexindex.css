@@ -8,26 +8,28 @@ body {
 }
 
 .gallery {
-  width: 90%;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 1px solid black;
   transition: all 0.25s ease-in-out;
 }
 
 .art {
+  height: 100px;
   width: 100%;
   transition: all 0.25s ease-in-out;
   transform: translate3d(0, 0, 0);
 }
 
 .text {
-  width: 100%;
-  padding-left: 10px;
+  height: inherit;
+  margin: 5px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 75px;
   overflow: hidden;
-  float: left;
 }
 
 .art.active {
