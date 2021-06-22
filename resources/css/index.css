@@ -1,0 +1,119 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* body {
+  height: 500;
+  width: 1000;
+} */
+
+.gallery {
+  /* max-width: 1020px; */
+  height: 400px;
+  width: 50%;
+  /* margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%; */
+  margin: auto;
+  transition: all 0.25s ease-in-out;
+  /* background: blue; */
+  /* background: url("https://cdn.pixabay.com/photo/2017/07/05/21/52/frame-2476117_960_720.png") */
+}
+
+.art {
+  width: 3%;
+  height: inherit;
+  padding-right: 20px;
+  padding-left: 5px;
+  background: yellow;
+  display: inline-block;
+  /* border: 10px solid black; */
+  transition: all 0.25s ease-in-out;
+  transform: translate3d(0, 0, 0);
+}
+
+.text {
+  height: inherit;
+  width: 400px;
+  /* padding-left: 10px; */
+  /* padding-right: 20px; */
+  /* width: inherit; */
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 75px;
+  overflow: hidden;
+  /* display: flex; */
+  /* white-space: nowrap; */
+  float: left;
+}
+
+.art.active {
+  width: 400px;
+  height: inherit;
+  transition: all 0.25s ease-in-out;
+  /* white-space: nowrap; */
+  /* float: left; */
+}
+
+.art.inactive {
+  width: 50px;
+  height: inherit;
+  opacity: .6;
+  transition: all 0.25s ease-in-out;
+}
+
+.art.frame1 {
+  /* background: url("./resources/images/frame.PNG") */
+  /* background: url("https://cdn.pixabay.com/photo/2017/07/05/21/52/frame-2476117_960_720.png") */
+  background: #FFCCBB;
+  background-size: cover;
+}
+
+.art.frame2 {
+  background: #F78D78;
+  background-size: cover;
+}
+
+.art.frame3 {
+  background: #CB9897;
+  background-size: cover;
+}
+
+.art.frame4 {
+  background: #9BB9C3;
+  background-size: cover;
+}
+
+.art.frame5 {
+  background: #947481;
+  background-size: cover;
+}
+
+.art.frame6 {
+  /* background: url("./resources/images/frame.PNG") */
+  /* background: url("https://cdn.pixabay.com/photo/2017/07/05/21/52/frame-2476117_960_720.png") */
+  background: #C39C92;
+  background-size: cover;
+}
+
+.art.frame7 {
+  background: #BEAFAC;
+  background-size: cover;
+}
+
+.art.frame8 {
+  background: #BDBDBD;
+  background-size: cover;
+}
+
+.art.frame9 {
+  background: #AAAC9F;
+  background-size: cover;
+}
+
+.art.frame10 {
+  background: #BB6859;
+  background-size: cover;
+}
