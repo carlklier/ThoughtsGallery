@@ -96,11 +96,11 @@ body {
   background-size: cover;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   .gallery{
     display: flex;
   }
   .text{
     overflow: scroll;
   }
-}
+} */
